@@ -8,9 +8,9 @@
 		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.5.xsd" 
 >
 
-<mongo:mongo host="localhost" port="27017" id="mongo" />
+<mongo:mongo host="10.0.0.174" port="27017" id="mongo" />
 
-<mongo:mongo host="localhost" port="27017" id="test">
+<mongo:mongo host="10.0.0.174" port="27017" id="test">
     <mongo:options connections-per-host="8"
                    threads-allowed-to-block-for-connection-multiplier="4"
                    connect-timeout="1000"
