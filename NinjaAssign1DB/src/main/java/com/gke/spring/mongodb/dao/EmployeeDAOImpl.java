@@ -35,9 +35,9 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	}
 
 	@Override
-	public int deleteById(int no) {
-		// TODO Auto-generated method stub
-		return 0;
+	public void deleteById(int no) {
+		Employee tbd = readById( no);
+		this.mongoOps.remove(tbd,Employee_COLLECTION);
 	}
 
 	@Override

@@ -25,9 +25,9 @@
 					<td>${employee.firstname}</td>
 					<td>${employee.lastname}</td>
 					<td>${employee.no}</td>
-					<td><a href="editEmployee?id=${employee.no}">Edit</a>
+					<td><a href="editEmployee?no=${employee.no}">Edit</a>
 						&nbsp;&nbsp;&nbsp;&nbsp; <a
-						href="deleteEmployee?id=${employee.no}">Delete</a></td>
+						href="deleteEmployee?no=${employee.no}">Delete</a></td>
 
 				</tr>
 			</c:forEach>

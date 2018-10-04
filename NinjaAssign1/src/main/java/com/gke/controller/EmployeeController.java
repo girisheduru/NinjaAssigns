@@ -28,7 +28,6 @@ public class EmployeeController {
 	public ModelAndView listEmployee(ModelAndView model) throws IOException {
 		
 		
-		@SuppressWarnings("unchecked")
 		List<Employee> listEmployee = employeeService.getAll();
 		model.addObject("listEmployee", listEmployee);
 		model.setViewName("home");

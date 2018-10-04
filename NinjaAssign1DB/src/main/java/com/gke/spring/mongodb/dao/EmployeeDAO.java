@@ -14,5 +14,5 @@ public interface EmployeeDAO {
 	
 	public List getAll();
 
-	public int deleteById(int no);
+	public void deleteById(int no);
 }
