@@ -6,13 +6,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Employee Management Screen</title>
+<link href="${pageContext.request.contextPath}/resources/style.css"
+    rel="stylesheet">
+        <title>Employee Management Store</title>
+
+
 </head>
+
 <body>
 	<div align="center">
-		<h1>Employee List</h1>
+		<h1>Employee Group</h1>
 		
-		<table border="1">
+		<table id="employees" border="1">
 
 			<th>First Name</th>
 			<th>Last Name</th>
