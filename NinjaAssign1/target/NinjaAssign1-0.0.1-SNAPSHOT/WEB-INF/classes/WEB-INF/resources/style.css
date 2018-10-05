@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	border: 2px solid black;
+	padding: 25px;
+	background-color: lightblue;
+	background-image: url("springdata_mongo_webiner-370x208.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 70px;
+	color: #360000;
+}
+
+h4 {
+	font-size: 40px;
+	color: #360000;
+}
+
+#employees {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border-radius: 4px;
+	width: 100%;	
+}
+
+#employees td, #employees th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center; 
+    vertical-align: middle;
+}
+
+#employees tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#employees tr:hover {
+	background-color: #ddd;
+}
+
+#employees th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #4CAF50;
+	color: white;
+	height: 30px;
+}

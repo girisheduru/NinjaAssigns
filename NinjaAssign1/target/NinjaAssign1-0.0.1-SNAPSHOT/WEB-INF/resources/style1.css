@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	padding: 75px;
+	border: 2px solid black;
+	background-image: url("spring-mvc-logo.png");
+	background-color: lightblue;
+	background-repeat: no-repeat;
+	background-position: top right;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 60px;
+	color: #360000;
+}
+
+label {
+	display: block;
+	width: x;
+	height: y;
+	text-align: left;
+	font-size: 30px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+input[type=submit] {
+	width: 50%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}

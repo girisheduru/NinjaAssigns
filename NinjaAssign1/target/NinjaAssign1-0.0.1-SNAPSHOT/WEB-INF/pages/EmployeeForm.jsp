@@ -6,30 +6,30 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>New/Edit Contact</title>
+<link href="${pageContext.request.contextPath}/resources/style1.css"
+    rel="stylesheet">
+<title>New/Edit Employee</title>
 </head>
 <body>
     <div align="center">
         <h1>New/Edit Employee</h1>
+        <br></br>
+         <br></br>
+        
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
-        <table>
             <form:hidden path="id"/>
-            <tr>
-                <td>First Name:</td>
-                <td><form:input path="firstname" /></td>
-            </tr>
-            <tr>
-                <td>LAst Name:</td>
-                <td><form:input path="lastname" /></td>
-            </tr>
-            <tr>
-                <td>Employee No:</td>
-                <td><form:input path="no" /></td>
-            </tr>
-            <tr>
-                <td colspan="2" align="center"><input type="submit" value="Save"></td>
-            </tr>
-        </table>
+            
+             <label for="firstname">First Name</label>
+             <form:input path="firstname" placeholder="Your name.."/>
+ 			 <label for="lastname">Last Name</label>
+             <form:input path="lastname" placeholder="Your Last name.."/>
+              <label for="no">Employee No</label>
+             <form:input path="no"/>
+ 
+            
+              <input type="submit" value="Save">
+          
+           
         </form:form>
     </div>
 </body>
